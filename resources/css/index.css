@@ -88,7 +88,7 @@
 
 #features{
     background-color: black;
-    padding: 5rem 0;
+    padding: 2rem 0 0 0;
     box-sizing: border-box;
     transition: all 0.2s ease in;
 }
@@ -126,6 +126,7 @@
 .features-container{
     display: grid;
     grid-auto-flow: column;
+
 }
 
 .feature-item{
@@ -172,7 +173,7 @@
     width: 80%;
     display: block;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .content-section{
@@ -190,7 +191,8 @@
 .img-section img{
     width: 100%;
     height: auto;
-    filter: drop-shadow(0 0 2.5rem white);
+    filter: drop-shadow(0 0 1.5rem white);
+    
 }
 
 .content-section .title{
@@ -208,7 +210,11 @@
     margin-top: 10px;
     font-size: 17px;
     line-height: 1.5;
-    color: gray;
+    color: white;
+}
+
+.content-section .content .b i{
+    color: white;
 }
 
 .content-section .content .b a{
@@ -217,7 +223,7 @@
     border-width: 5px;
     text-decoration: none;
     text-transform: none;
-    color: white;
+    color: gray;
     background: rgba(0, 0, 0, 0.35);
     padding: 10px 25px;
     font-size: 1.5em;
@@ -225,18 +231,18 @@
     border-radius: none;
     letter-spacing: 0.1em;
     transition: 0.5s;
-    margin-top: 35px;
+    margin-top: 36px;
 }
 .content-section .content .b a:hover{
     letter-spacing: 0.15em;
     background: black;
-    box-shadow: 0 0 75px 10px #876c22;
+    box-shadow: 0 0 75px 7.5px #876c22;
     color: #876c22;
 }
-.download-buttons{
-    color: white;
 
-}
+
+
+
 
 /*-- FORM --*/
 div.form
@@ -319,6 +325,9 @@ textarea:focus~label, textarea:valid~label{
     flex-basis: 45%;
 }
 
+
+
+
 /*-- Footer --*/
 .footer-logo{
     max-width: 370px;
@@ -340,7 +349,6 @@ footer{
     width: 100vw;
     padding-top: 40px;
     color: white;
-
 }
 
 .footer-content{
@@ -403,9 +411,3 @@ footer{
     word-spacing: 2px;
     text-transform: capitalize;
 }
-
-
-
-
-
-
